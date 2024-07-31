@@ -1,0 +1,156 @@
+#wrapper{
+	width: 80%;
+	background-color: #101621;
+	margin: 30px auto 30px auto;
+	max-width: 1250px;
+	box-shadow: 10px 10px 10px #101621;
+	border: 3px solid #D6AE18;
+}
+body{	
+	background-image: linear-gradient(to bottom, #686D77, #B3AB99);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Tahoma, Verdana, serif;
+	color: #B3AB99;
+}
+header{
+	color: #B3AB99;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;	
+	max-width: 1250px;
+	justify-content: center;
+	background: url(kanji.jpg) no-repeat 95%, #101621;
+	min-height:110px;
+	
+}
+@media (min-width: 842px){
+    header{
+		    color: #B3AB99;
+		    margin-bottom: 0;
+		    margin-left: auto;
+		    margin-right: auto;	
+		    max-width: 1250px;
+		    justify-content: center;
+		    background: url(kanji.jpg) no-repeat 95%,
+		    #101621;
+		    min-height:110px;
+		    line-height: 3;
+	  	    vertical-align: middle;
+        }
+}
+header h1{
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 0px 100px 0px 100px;
+}
+nav{
+	background-color: #686D77;
+	max-width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;	
+}
+nav a{
+	text-decoration: none;
+	color: #101621;
+	font-weight: bold;
+	text-indent: 15px;
+	transition: color 2s linear;	
+}
+p{
+	text-indent: 1.5em;
+	padding: 25px;
+}
+.IndexParagraphTwo{
+	text-indent: 1.5em;
+	padding: 25px;
+	clear: both;
+}
+h2{
+	padding: 10px;
+}
+#boxOne{
+	float: left;
+	width: 45%;
+	padding-left: 10px;
+}
+#boxTwo{
+	margin-left: 55%;
+	padding-right: 10px;
+}
+img{
+	width: 100%;
+}
+a:hover{
+	color: #D6AE18;
+}
+table{
+	color: #101621;
+	margin: 25px;
+	padding: 25px;
+	background-image: linear-gradient(to right, #686D77, #101621);
+	font-family: Georgia, Serif;	
+}
+caption{
+	color: #B3AB99;
+}
+th:nth-of-type(1){
+	color: #101621;
+	text-align: left;
+}
+th:nth-of-type(2){
+	color: #800020;
+	text-align: right;
+}
+td:nth-of-type(2){
+	color: #800020;
+	text-align: right;	
+}
+.description {
+	color: #D6AE18;
+	text-indent: 1.5em;
+	padding: 25px;
+}
+form{
+	color: #101621;
+	background-color: #686D77;	
+	width: 350px;
+	padding: 10px;
+	margin: 10px auto 10px auto;
+}
+label{
+	float: left;
+	clear: left;
+	display: block;	
+	margin-top: 10px;
+	width: 100px;
+	padding-right: 10px;
+	margin-top: 10px;
+	text-align: right;
+}
+input{
+	display: block;	
+	margin-top: 10px;
+}
+textarea{
+	display: block;
+	margin-top: 10px;	
+}
+input[type="submit"]{
+	margin-left: 110px;
+}
+footer{
+	font-size: small;
+	color: #101621;
+	background-color: #686D77;
+	text-align: center;
+	margin-top: 50px;
+	clear: both;
+	padding-bottom: 5px;
+}
+footer a{
+	text-decoration: none;
+	color: #101621;
+}
