@@ -40,7 +40,7 @@ header{
 	  	    vertical-align: middle;
         }
 }
-@media (min-width: 376px){
+@media (max-width: 376px){
 	body{	
 		background-image: none;
 		font-family: Tahoma, Verdana, serif;
