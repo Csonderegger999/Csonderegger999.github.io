@@ -40,7 +40,7 @@ header{
 	  	    vertical-align: middle;
         }
 }
-@media (min-width: 375px){
+@media (min-width: 376px){
 	body{}
 	#wrapper{
 		width: 100%;
