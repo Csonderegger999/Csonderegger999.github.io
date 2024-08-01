@@ -49,9 +49,9 @@ header{
 		border: 0px 0px 0px 0px;
 	}
 	#wrapper{
-		align: left;
-		display: flex;
-		flex-flow: column;
+		left: 0;
+		top: 0;
+		position: fixed;
 		height: 100%;
 		width: 100%;
 		background-color: #101621;
